@@ -9,6 +9,8 @@ Sample Lists:
 1   3
 3   9
 3   3
+
+https://adventofcode.com/2024/day/1
 */
 
 $firstList = [3, 4, 2, 1, 3, 3];
