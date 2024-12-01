@@ -32,7 +32,7 @@ function calculate_similarity($firstList, $secondList) {
     $counts = array_count_values($secondList);
     foreach ($firstList as $item) {
         if (@$counts[$item]) {
-            $similarity = $similarity + ($item * $counts[$item]);
+            $similarity += ($item * $counts[$item]);
         }
     }
     return $similarity;
